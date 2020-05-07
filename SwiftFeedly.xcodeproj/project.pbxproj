@@ -7,16 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A53F1102463EF8800607289 /* SwiftFeedlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F10F2463EF8800607289 /* SwiftFeedlyTests.swift */; };
+		3A53F1122463EF8800607289 /* SwiftFeedly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5E4AAA245AE1B7005D3573 /* SwiftFeedly.framework */; };
 		3A5E4AAF245AE1B7005D3573 /* SwiftFeedly.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5E4AAD245AE1B7005D3573 /* SwiftFeedly.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3A53F1132463EF8800607289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A5E4AA1245AE1B7005D3573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A5E4AA9245AE1B7005D3573;
+			remoteInfo = SwiftFeedly;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3A53F10D2463EF8800607289 /* SwiftFeedlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFeedlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A53F10F2463EF8800607289 /* SwiftFeedlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFeedlyTests.swift; sourceTree = "<group>"; };
+		3A53F1112463EF8800607289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A5E4AAA245AE1B7005D3573 /* SwiftFeedly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFeedly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5E4AAD245AE1B7005D3573 /* SwiftFeedly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFeedly.h; sourceTree = "<group>"; };
 		3A5E4AAE245AE1B7005D3573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3A53F10A2463EF8800607289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A53F1122463EF8800607289 /* SwiftFeedly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A5E4AA7245AE1B7005D3573 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -27,10 +50,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A53F10E2463EF8800607289 /* SwiftFeedlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A53F10F2463EF8800607289 /* SwiftFeedlyTests.swift */,
+				3A53F1112463EF8800607289 /* Info.plist */,
+			);
+			path = SwiftFeedlyTests;
+			sourceTree = "<group>";
+		};
 		3A5E4AA0245AE1B7005D3573 = {
 			isa = PBXGroup;
 			children = (
 				3A5E4AAC245AE1B7005D3573 /* SwiftFeedly */,
+				3A53F10E2463EF8800607289 /* SwiftFeedlyTests */,
 				3A5E4AAB245AE1B7005D3573 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				3A5E4AAA245AE1B7005D3573 /* SwiftFeedly.framework */,
+				3A53F10D2463EF8800607289 /* SwiftFeedlyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +100,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3A53F10C2463EF8800607289 /* SwiftFeedlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A53F1172463EF8800607289 /* Build configuration list for PBXNativeTarget "SwiftFeedlyTests" */;
+			buildPhases = (
+				3A53F1092463EF8800607289 /* Sources */,
+				3A53F10A2463EF8800607289 /* Frameworks */,
+				3A53F10B2463EF8800607289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A53F1142463EF8800607289 /* PBXTargetDependency */,
+			);
+			name = SwiftFeedlyTests;
+			productName = SwiftFeedlyTests;
+			productReference = 3A53F10D2463EF8800607289 /* SwiftFeedlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3A5E4AA9245AE1B7005D3573 /* SwiftFeedly */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A5E4AB2245AE1B7005D3573 /* Build configuration list for PBXNativeTarget "SwiftFeedly" */;
@@ -90,9 +142,13 @@
 		3A5E4AA1245AE1B7005D3573 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Anton Simakov";
 				TargetAttributes = {
+					3A53F10C2463EF8800607289 = {
+						CreatedOnToolsVersion = 10.3;
+					};
 					3A5E4AA9245AE1B7005D3573 = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -111,11 +167,19 @@
 			projectRoot = "";
 			targets = (
 				3A5E4AA9245AE1B7005D3573 /* SwiftFeedly */,
+				3A53F10C2463EF8800607289 /* SwiftFeedlyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3A53F10B2463EF8800607289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A5E4AA8245AE1B7005D3573 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,6 +190,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3A53F1092463EF8800607289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A53F1102463EF8800607289 /* SwiftFeedlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A5E4AA6245AE1B7005D3573 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,7 +207,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3A53F1142463EF8800607289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A5E4AA9245AE1B7005D3573 /* SwiftFeedly */;
+			targetProxy = 3A53F1132463EF8800607289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		3A53F1152463EF8800607289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftFeedlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonsimakov.SwiftFeedlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A53F1162463EF8800607289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftFeedlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonsimakov.SwiftFeedlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		3A5E4AB0245AE1B7005D3573 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -309,6 +423,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3A53F1172463EF8800607289 /* Build configuration list for PBXNativeTarget "SwiftFeedlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A53F1152463EF8800607289 /* Debug */,
+				3A53F1162463EF8800607289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3A5E4AA4245AE1B7005D3573 /* Build configuration list for PBXProject "SwiftFeedly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
