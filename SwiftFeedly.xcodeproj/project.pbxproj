@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		3A53F1102463EF8800607289 /* SwiftFeedlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F10F2463EF8800607289 /* SwiftFeedlyTests.swift */; };
 		3A53F1122463EF8800607289 /* SwiftFeedly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5E4AAA245AE1B7005D3573 /* SwiftFeedly.framework */; };
+		3A53F1512463F2AE00607289 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F1402463F2AD00607289 /* Model.swift */; };
+		3A53F1522463F2AE00607289 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F1432463F2AE00607289 /* ParameterEncoding.swift */; };
+		3A53F1532463F2AE00607289 /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F1442463F2AE00607289 /* URLParameterEncoding.swift */; };
+		3A53F1542463F2AE00607289 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F1452463F2AE00607289 /* JSONParameterEncoder.swift */; };
+		3A53F1552463F2AE00607289 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F1472463F2AE00607289 /* NetworkManager.swift */; };
+		3A53F1562463F2AE00607289 /* FeedlyEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F1492463F2AE00607289 /* FeedlyEndPoint.swift */; };
+		3A53F1572463F2AE00607289 /* MovieEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F14A2463F2AE00607289 /* MovieEndPoint.swift */; };
+		3A53F1582463F2AE00607289 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F14C2463F2AE00607289 /* HTTPTask.swift */; };
+		3A53F1592463F2AE00607289 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F14D2463F2AE00607289 /* HTTPMethod.swift */; };
+		3A53F15A2463F2AE00607289 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F14E2463F2AE00607289 /* Router.swift */; };
+		3A53F15B2463F2AE00607289 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F14F2463F2AE00607289 /* NetworkLogger.swift */; };
+		3A53F15C2463F2AE00607289 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53F1502463F2AE00607289 /* EndPointType.swift */; };
 		3A5E4AAF245AE1B7005D3573 /* SwiftFeedly.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5E4AAD245AE1B7005D3573 /* SwiftFeedly.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -26,6 +38,18 @@
 		3A53F10D2463EF8800607289 /* SwiftFeedlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFeedlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A53F10F2463EF8800607289 /* SwiftFeedlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFeedlyTests.swift; sourceTree = "<group>"; };
 		3A53F1112463EF8800607289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A53F1402463F2AD00607289 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3A53F1432463F2AE00607289 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		3A53F1442463F2AE00607289 /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		3A53F1452463F2AE00607289 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		3A53F1472463F2AE00607289 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3A53F1492463F2AE00607289 /* FeedlyEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedlyEndPoint.swift; sourceTree = "<group>"; };
+		3A53F14A2463F2AE00607289 /* MovieEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieEndPoint.swift; sourceTree = "<group>"; };
+		3A53F14C2463F2AE00607289 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		3A53F14D2463F2AE00607289 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		3A53F14E2463F2AE00607289 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		3A53F14F2463F2AE00607289 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		3A53F1502463F2AE00607289 /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 		3A5E4AAA245AE1B7005D3573 /* SwiftFeedly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFeedly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5E4AAD245AE1B7005D3573 /* SwiftFeedly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFeedly.h; sourceTree = "<group>"; };
 		3A5E4AAE245AE1B7005D3573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +83,64 @@
 			path = SwiftFeedlyTests;
 			sourceTree = "<group>";
 		};
+		3A53F13F2463F2AD00607289 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A53F1402463F2AD00607289 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A53F1412463F2AE00607289 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3A53F1422463F2AE00607289 /* Encoding */,
+				3A53F1462463F2AE00607289 /* Manager */,
+				3A53F1482463F2AE00607289 /* EndPoint */,
+				3A53F14B2463F2AE00607289 /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3A53F1422463F2AE00607289 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				3A53F1432463F2AE00607289 /* ParameterEncoding.swift */,
+				3A53F1442463F2AE00607289 /* URLParameterEncoding.swift */,
+				3A53F1452463F2AE00607289 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		3A53F1462463F2AE00607289 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3A53F1472463F2AE00607289 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3A53F1482463F2AE00607289 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				3A53F1492463F2AE00607289 /* FeedlyEndPoint.swift */,
+				3A53F14A2463F2AE00607289 /* MovieEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		3A53F14B2463F2AE00607289 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3A53F14C2463F2AE00607289 /* HTTPTask.swift */,
+				3A53F14D2463F2AE00607289 /* HTTPMethod.swift */,
+				3A53F14E2463F2AE00607289 /* Router.swift */,
+				3A53F14F2463F2AE00607289 /* NetworkLogger.swift */,
+				3A53F1502463F2AE00607289 /* EndPointType.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		3A5E4AA0245AE1B7005D3573 = {
 			isa = PBXGroup;
 			children = (
@@ -80,8 +162,10 @@
 		3A5E4AAC245AE1B7005D3573 /* SwiftFeedly */ = {
 			isa = PBXGroup;
 			children = (
-				3A5E4AAD245AE1B7005D3573 /* SwiftFeedly.h */,
+				3A53F13F2463F2AD00607289 /* Model */,
+				3A53F1412463F2AE00607289 /* Networking */,
 				3A5E4AAE245AE1B7005D3573 /* Info.plist */,
+				3A5E4AAD245AE1B7005D3573 /* SwiftFeedly.h */,
 			);
 			path = SwiftFeedly;
 			sourceTree = "<group>";
@@ -202,6 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A53F1542463F2AE00607289 /* JSONParameterEncoder.swift in Sources */,
+				3A53F1562463F2AE00607289 /* FeedlyEndPoint.swift in Sources */,
+				3A53F15A2463F2AE00607289 /* Router.swift in Sources */,
+				3A53F1522463F2AE00607289 /* ParameterEncoding.swift in Sources */,
+				3A53F1552463F2AE00607289 /* NetworkManager.swift in Sources */,
+				3A53F1582463F2AE00607289 /* HTTPTask.swift in Sources */,
+				3A53F1592463F2AE00607289 /* HTTPMethod.swift in Sources */,
+				3A53F1572463F2AE00607289 /* MovieEndPoint.swift in Sources */,
+				3A53F15C2463F2AE00607289 /* EndPointType.swift in Sources */,
+				3A53F1532463F2AE00607289 /* URLParameterEncoding.swift in Sources */,
+				3A53F1512463F2AE00607289 /* Model.swift in Sources */,
+				3A53F15B2463F2AE00607289 /* NetworkLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +315,7 @@
 		3A53F1152463EF8800607289 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftFeedlyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -236,6 +333,7 @@
 		3A53F1162463EF8800607289 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftFeedlyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
